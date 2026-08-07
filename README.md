@@ -12,7 +12,7 @@ This project uses SQL, Python, Power BI, and Machine Learning to analyze custome
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 - SQL (MySQL)
 - Python
