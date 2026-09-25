@@ -1,41 +1,80 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# ================================
+# Dataset
+# ================================
 
+dataset/
+
+# ================================
+# Python
+# ================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ================================
 # Virtual Environment
+# ================================
+
 .venv/
 venv/
 env/
+ENV/
 
+# ================================
+# Environment Variables
+# ================================
+
+.env
+.env.*
+!.env.example
+
+# ================================
 # Jupyter
+# ================================
+
 .ipynb_checkpoints/
 
+# ================================
 # VS Code
+# ================================
+
 .vscode/
+*.code-workspace
 
-# Power BI
-*.pbix.autosave
-
+# ================================
 # OS Files
+# ================================
+
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# ================================
+# Python Build
+# ================================
 
-# Environment Variables
-.env
-
-# Python build files
 build/
 dist/
 *.egg-info/
+.eggs/
 
-# Model files (optional)
-models/
-*.pkl
+# ================================
+# Logs
+# ================================
 
-# Temporary files
-temp/
+*.log
+
+# ================================
+# Temporary Files
+# ================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ================================
+# Streamlit
+# ================================
+
+.streamlit/secrets.toml
